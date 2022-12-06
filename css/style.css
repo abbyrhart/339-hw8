@@ -273,10 +273,10 @@ border-radius: 6px;
 }
 
 .reads {
-	justify-items: space-between;
+	justify-content: space-around;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
+	flex-direction: row;
 	margin-top: 20px;
 	margin-bottom: 15px;
 	padding: 0px;
@@ -529,6 +529,11 @@ form {
 		width: 10%;
 		margin: 10px;
 		margin-bottom: 20px;
+	}
+
+	.reads {
+		flex-direction: row;
+		justify-content: space-between;
 	}
 }
 
